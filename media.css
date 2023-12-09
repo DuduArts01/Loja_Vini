@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+:root{
+    --headercolor: #111111;
+    --ulmenucolor: #2c3e50;
+}
+
+@media screen and (max-width: 952px) {
+   label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+   }
+
+   nav > ul > li > a{
+    font-size: 1em;
+   }
+
+}
+
+@media screen and (max-width: 858px) {
+    #menu{
+        display: block;
+    }
+
+    header > nav > ul{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--ulmenucolor);
+        left: 0;
+        top: 80px;
+        text-align: center;
+    }
+
+    header > nav > ul > li{
+        display: block;
+    }
+
+    header > nav > ul > li > a:hover{
+        background: none;
+        color: var(--headercolor);
+
+    }
+}
+
+@media screen and (min-width: 957px){
+    #itens{
+        display: block;
+    }
+}
