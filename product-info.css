@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --headercolor: #111111;
+    --bodycolor: #2C6A91;
+    --headermenuhovercolor: #3030309c;
+    --font: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.infologos{
+    width: 100%;
+}
+
+div#infoProduct{
+    display: none;
+    background-color: #F7F7F7;
+    height: 30%;
+    width: 100%;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+div#product{
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+    position: relative;
+    padding: 5%;
+    left: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+i#back{
+    position: absolute;
+    left: 2%;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+div.button_payment{
+    background-color: #008060;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    color: white;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    margin: 20px 0px;
+}
+
+div.button_payment:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+div#informations{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    padding: 5%;
+    right: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+div#pricing{
+    margin-top: 5%;
+}
+
+div.price{
+    display: inline-block;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 1em;
+    color: #494a4e;
+}
+
+div.price-value{
+    display: block;
+    color: #0FB930;
+    font-family: var(--font);
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 9%;
+}
+
+div.payment-installment{
+    display: inline-block;
+    color: #494a4e;
+    font-family: var(--font);
+    font-size: 1.3em;
+}
+
+div.bold{
+    display: inline-block;
+    color: #494a4e;
+    font-family: var(--font);
+    font-size: 1.3em;
+    font-weight: bold;
+}
