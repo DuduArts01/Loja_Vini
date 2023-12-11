@@ -48,3 +48,110 @@
         display: block;
     }
 }
+
+@media screen and (max-width: 856px){
+    div#reserve_space{
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    div.logo_example{
+        display: flex;
+        width: 60%;
+        position: relative;
+        margin: auto;
+        top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.info{
+        display: flex;  
+        position: relative; 
+        align-items: center;
+        height: 200px;
+        width: 60%;
+        top: 20px;
+        left: 20%;
+    }
+
+    p.res{
+        font-size: 1em; 
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    p.info_res{
+        font-size: 0.8em;
+       
+    }
+
+    div#button_product{
+        display: flex;
+        position: absolute;
+        width: 30%;
+        top: 95%;
+        
+    }
+
+    div.gym{
+        position: relative;
+        width: 30%;
+        margin-left: -2%;
+        margin-top: -1%;
+    }
+
+    div#infoProduct{
+
+    }
+    div#payment{
+        display: flex;
+        height: 500px;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+
+    div#product{
+        display: flex;
+        position: relative;
+    }
+
+    p.inf1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    p.inf2{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    p.inf3{
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    p.val1{
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    p.val2{
+        font-size: 0.8em;
+ 
+    }
+
+    p.val3{
+        font-size: 0.8em;
+    }
+
+    .button_payment{
+        text-align: center;
+    }
+
+    img.infologos{
+        max-width: 100%;
+    }
+}

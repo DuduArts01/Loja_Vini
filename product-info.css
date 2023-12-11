@@ -17,7 +17,11 @@
 }
 
 img.infologos{
-    width: 100%;
+    max-width: 100%;
+}
+
+img.img_example{
+    max-width: 100%;
 }
 
 div#infoProduct{
