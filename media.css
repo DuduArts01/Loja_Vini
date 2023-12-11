@@ -92,7 +92,7 @@
         display: flex;
         position: absolute;
         width: 30%;
-        top: 95%;
+        margin-top: 65%;
         
     }
 
@@ -103,9 +103,6 @@
         margin-top: -1%;
     }
 
-    div#infoProduct{
-
-    }
     div#payment{
         display: flex;
         height: 500px;
@@ -149,6 +146,7 @@
 
     .button_payment{
         text-align: center;
+        
     }
 
     img.infologos{
