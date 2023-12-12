@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="product-info.css">
+    <link rel="stylesheet" href="checkout.css">
     
 </head>
 <body>
@@ -71,13 +72,60 @@
     </div>
 
     <div id="box_information">
-        <i id="back" class="material-icons" onclick="clickBuy()">arrow_back</i>
-        <label class="picture" for="picture__input" tabIndex="0">
-            <span class="picture__image"></span>
-        </label>
+        <div id="sign_up">
+            <div id="sign_up_store" class="signs">
+                <i id="back2" class="material-icons" onclick="clickBuy()">arrow_back</i>
+                <label class="picture" for="picture__input" tabIndex="0">
+                    <span class="picture__image"></span>
+                </label>
+                <input type="file" name="picture__input" id="picture__input">
+                <p class="store_information">Informações da Loja</p>
+                
+                <label for="name__input">Nome:</label>
+                <input type="text" name="name__input" id="name__input" class="box_sign_up" placeholder="Nome da Loja">
+                
+                <label for="account">Email:</label>
+                <input type="email" id="account" class="box_sign_up" pattern=".+@example\.com" required />
+                
+                <label for="zip-code">CEP:</label>
+                <input type="txt" name="zip-code" id="zip-code" class="box_sign_up" placeholder="12345-677" maxlength="8">
+                
+                <label for="neighborhood">Bairro:</label>
+                <input type="text" name="neighborhood" id="neighborhood" class="box_sign_up" placeholder="Jardim das Industrias">
+
+                <label for="address">Endereço:</label>
+                <input type="text" name="address" id="address" class="box_sign_up" placeholder="Rua dos Aviadores">
+                
+                <label for="establishment_number">Número:</label>
+                <input type="number" name="establishment_number" id="establishment_number" class="box_sign_up" placeholder="13">
+
+                <label for="state">Estado:</label>
+                <input type="text" id="state" class="box_sign_up">
+                <label for="city">Cidade:</label>
+                <input type="text" name="city" id="city" placeholder="São José dos Campos" class="box_sign_up" >
+                <div id="button_continue" onclick="clickContinueBuy()">Continuar <i id="continue" class="material-icons">arrow_forward</i></div>
+            </div>
+            
+            <div id="sign_up_person" class="signs">
+                <i id="back3" class="material-icons" onclick="clickContinueBuy()">arrow_back</i>
+                <div class="sign_up_person_info">
+                    <p class="store_information">Informações do Usuário</p>
+                    <label for="name_user">Nome(Completo):</label>
+                    <input type="text" name="name_user" id="name_user" class="box_sign_up" placeholder="Cabral Nascimento Souza">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" class="box_sign_up" placeholder="000.000.000-00">
+                    <label for="whatsApp">whatsApp</label>
+                    <input type="text" name="whatsApp" id="whatsApp" class="box_sign_up" placeholder="+55 (00) 0000 - 0000 ">
+                </div>
+            </div>
+                        
+        </div>
+
+        
     </div>
-      
-    <input type="file" name="picture__input" id="picture__input">
+    
+
+    
 
     <main>
         <div id="reserve_space">
@@ -117,5 +165,6 @@
     </footer>
     <script src="script.js"></script>
     <script src="product.js"></script>
+    <script src="checkout.js"></script>
 </body>
 </html>

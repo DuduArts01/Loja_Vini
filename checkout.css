@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --headercolor: #111111;
+    --divphrase: #242424;
+    --bodycolor: #2C6A91;
+    --headermenuhovercolor: #3030309c;
+    --font: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.signs{
+    /*display: ;*/
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.384);
+    
+}
+
+.store_information{
+    font-size: 2em;
+    font-weight: bold;
+    margin: auto;
+}
+
+.box_sign_up{
+    width: 95%;
+    font-size: 1.3em;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+div#button_continue{
+    background-color: #008060;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    color: white;
+    width: 20%;
+    height: 8%;
+    top: 103%;
+    right: 20%; 
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+div#button_continue:hover{
+    opacity: 0.9;
+    margin: 0px 5px;
+    
+}
+
+div#sign_up_person{
+    display: none;
+    position: absolute;
+    left: 30%;
+}
+
+
+

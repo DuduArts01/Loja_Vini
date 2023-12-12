@@ -16,6 +16,38 @@
     --font: Georgia, 'Times New Roman', Times, serif;
 }
 
+i#back{
+    position: absolute;
+    left: 2%;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+i#back2{
+    position: absolute;
+    left: -48vw;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    top: -20px;
+}
+
+i#back3{
+    position: absolute;
+    left: -28vw;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    top: -20px;
+}
+
 header > div#phrase{
     color: white;
     background-color: var(--divphrase);
@@ -23,6 +55,12 @@ header > div#phrase{
     padding: 5px 0px;
     font-size: 1em;
     font-family: var(--font);
+}
+
+div#phrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 i#share{
@@ -162,6 +200,7 @@ div#button_product{
     align-items: center;
     right: 35%;
     top: 48%;
+    cursor: pointer;
 }
 
 div#button_product:hover{
